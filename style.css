@@ -167,3 +167,33 @@ span {
 .box-container p {
     color: #007185;
 }
+/* footer */
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    hight:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5em;
+    padding: 20px;
+    font-weight: bolder
+}
+.footer {
+    margin-top: ;
+}
+.panel-2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #232f3e;
+    color: white;
+    font-style: 0.85rem;
+    text-align: center;
+}
+li {
+    text-align: center;
+    list-style: none;
+}
+.div-unlist {
+    text-align: center;
+}
