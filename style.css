@@ -1,7 +1,7 @@
 * {
     margin: 0;
-    font-family:Arial:
-    border: border-box
+    font-family:Arial;
+    border: border-box;
 }
 .nevbar {
     height:60px;
@@ -43,7 +43,6 @@
 }
 .nav-search {
     display: flex;
-    background-color: #;
     width: 620px;
     height: 40px;
     border-radius: 5px;
@@ -81,9 +80,58 @@ span {
 }
 .nab-cart i {
     font-size: 30px;
-
 }
 .nav-cart {
     font-size: 0.rem;
     font-weight: 700;
+}
+/* pannel */
+.panel {
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-option p {
+    display: inline;
+    margin-left: 50px;
+}
+.panel-option {
+    width: 70%;
+    font-size: 0.85rem;
+    position: absolute;
+    left: 50px;
+}
+.panel-deals {
+    font-size: 0.9rem;
+    position: absolute;
+    right: 30px;
+}
+.panel-all {
+    position: absolute;
+    left: 20px;
+}
+.hero-section {
+    background-image: url(./image/hero_image.jpg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg {
+    background-color: white;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.hero-msg a {
+    color: #007185;
+    text-decoration: none;
 }
